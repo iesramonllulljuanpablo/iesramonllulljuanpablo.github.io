@@ -1,0 +1,29 @@
+body {
+    background-color: #d1d8d8;
+    font-family: Arial;
+    margin: 20px;
+    line-height: 1.6;
+}
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    text-underline-position: below;
+    font-size: 36px;
+}
+h2 {
+    text-decoration: underline;
+    font-size: 28px;
+    border-bottom: 2px solid #aaaaaa;
+}
+h3 {
+    text-decoration: underline;
+    font-size: 22px;
+    border-bottom: 2px solid #aaaaaa;
+}
+.destacado{
+    background-color: yellow;
+}
+#subrayado{
+    text-decoration: underline;
+}
+
