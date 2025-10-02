@@ -15,13 +15,14 @@
     <a href="clasesid.html">CLASES</a>
     <a href="capas.html">CAPAS</a>
     <a href="balondeoro.html">BALÓN DE ORO</a>
+
     <h2>Javascript</h2>
     <p>Javasrcipt es un lenguaje de programación para páginas web</p>
     <p>Nos ayuda a que nuestras páginas sigan interactivas</p>
-    <script>
-        alert("Soy un mensaje de alerta");
-    </script>
     <p>Ahora veréis que pasa cuando clíquemos este botón</p>
     <button onclick="alert('Hola, gracias por cliquear')">Clíqueame</button>
+    <h2>Botón que muestra la fecha</h2>
+    <button onclick="document.getElementById('fecha').innerHTML = Date()">Muestra la fecha y hora</button>
+    <p id="fecha"></p>
 </body>
 </html>
